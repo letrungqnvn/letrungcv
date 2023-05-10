@@ -1,0 +1,146 @@
+@media only screen and (max-width: 767px) {
+  p,
+  div,
+  ul,
+  li,
+  a,
+  table,
+  tr,
+  td {
+    line-height: 2rem;
+    font-size: 1rem;
+  }
+
+  /* container */
+  section > .container {
+    padding: 30px;
+  }
+
+  /* intro background */
+  .intro {
+    height: 200px;
+  }
+
+  /* navbar */
+  #nav-bar .container {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .nav-link {
+    border: none;
+  }
+
+  .navbar-nav.fix-width {
+    width: 100%;
+  }
+
+  .fix-width > div {
+    padding: 0 20px;
+  }
+
+  #nav-bar .container a {
+    /* display: block; */
+    width: 100%;
+    text-align: left;
+    padding: 10px 20px;
+  }
+
+  #nav-bar .container li,
+  #nav-bar .container li:last-child {
+    border: none;
+  }
+
+  /* about */
+
+  .width-fix {
+    max-width: 100%;
+  }
+
+  #about .container {
+    display: block;
+  }
+
+  #about .container div h1 {
+    margin: 15px auto;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  #personal-info {
+    background: linear-gradient(180deg, #dbdada, #f7f7f7);
+  }
+  .contact-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .contact-icon > li i {
+    font-size: 2rem;
+  }
+  #job-info > .container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+
+  .grid-item-title > h1 {
+    font-size: 1.4rem;
+  }
+
+  .certificate-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .flexbox {
+    flex-direction: column;
+  }
+
+  .flexbox > img {
+    margin: 0;
+  }
+
+  .flexbox h4 {
+    white-space: wrap;
+  }
+  .certi-grid-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .certi-grid-item:nth-child(even) .flexbox {
+    border-left: none;
+  }
+  .certi-grid-item:not(:last-child) {
+    border-bottom: 2px solid #d6c08d !important;
+  }
+
+  .project-grid {
+    /* tạo grid */
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .project-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .project-item .project-name {
+    order: -1;
+    background: linear-gradient(180deg, #dbdada, #f7f7f7);
+  }
+  #footer .hidden {
+    display: none;
+  }
+  .contact-list i {
+    font-size: 3rem;
+  }
+  /* footer */
+  .contact-icon-name {
+    display: none;
+  }
+  .contact-list > li {
+    padding: 10px;
+  }
+}
